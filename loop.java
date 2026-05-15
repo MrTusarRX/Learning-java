@@ -12,7 +12,7 @@ public class loop { /* class name */
         char[] arr = name.toCharArray();                         /* character array */
         System.out.println("the array index in reverse is : "); /* print statement */
        for(int i = arr.length - 1; i > 0; i--){ /* for loop to iterate through the array in reverse */
-        System.out.println(arr[i] + ""); /* print each element of the array in reverse */
+        System.out.print(arr[i]); /* print each element of the array in reverse */
        }
     }
 }
